@@ -8,6 +8,12 @@ export {
   onUsernameChange,
   forceDescribeMetadata,
   ForceDescribeMetadataExecutor,
-  getMetadataTypesPath,
+  getTypesPath,
   buildTypesList
-} from './orgMetadata';
+} from './metadataType';
+export {
+  buildComponentsList,
+  forceListMetadata,
+  ForceListMetadataExecutor,
+  getComponentsPath
+} from './metadataCmp';
